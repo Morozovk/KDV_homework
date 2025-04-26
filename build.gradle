@@ -30,6 +30,8 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:5.11.4",
             'org.slf4j:slf4j-simple:2.0.7',
             'io.qameta.allure:allure-selenide:2.17.3',
+            'org.aspectj:aspectjweaver:1.9.23',
+            'io.qameta.allure:allure-selenide:2.17.3',
             'org.aspectj:aspectjweaver:1.9.23'
     )
 }
@@ -43,5 +45,17 @@ tasks.withType(Test) {
             events "started", "skipped", "failed", "standard_error", "standard_out"
             exceptionFormat "short"
         }
+    }
+}
+
+task Guest_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("Guest_Test")
+    }
+}
+
+task Smoke_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("Smoke_Test")
     }
 }
