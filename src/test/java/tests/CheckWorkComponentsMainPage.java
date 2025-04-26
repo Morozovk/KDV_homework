@@ -44,6 +44,36 @@ public class CheckWorkComponentsMainPage extends TestBase {
         step("Тап по правой кнопке раздела рекомендации", () -> {
             mainPage.rightClickButtonRecommendation();
         });
+    }
+
+    @Test
+    @DisplayName("Проверка работы блока категории")
+    @Tag("Guest")
+    @Tag("Smoke")
+    void checkWorkCategoriesSelectionMainPage() {
+
+        step("Открытие страницы", () -> {
+            mainPage.openPage();
+            mainPage.clickButtonCloseCookieInfo();
+        });
+
+        step("Проверка наличия раздела категории", () -> {
+            mainPage.checkCategoriesSection();
+        });
+
+        step("Клик по кнопке 'Еще XX категорий'", () -> {
+            mainPage.clickButtonOpenCategories();
+        });
+
+        step("Клик по кнопке 'Скрыть категории'", () -> {
+            mainPage.clickButtonCloseCategories();
+        });
 
     }
 }
+
+
+
+//step("", () -> {
+//
+//        });

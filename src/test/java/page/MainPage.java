@@ -28,7 +28,10 @@ public class MainPage {
                             bannerImageCookie = $("[src='https://api.magonline.ru/thumbnail/1200x450/50/897/50897.png']"),
                             bannerImageBreakfast = $("[src='https://api.magonline.ru/thumbnail/1200x450/50/530/50530.png']"),
                             rightButtonRecommendation = $(".b9XbeXYFr.mvcyafA0C"),
-                            leftButtonRecommendation = $(".a9XbeXYFr.lvcyafA0C");
+                            leftButtonRecommendation = $(".a9XbeXYFr.lvcyafA0C"),
+                            buttonOpenCategories = $(".bJAnns2bu"),
+                            buttonCloseCategories = $(".cJAnns2bu"),
+                            buttonCloseCokieInfo = $(".al2KFqfcU");
 
 
 
@@ -125,6 +128,21 @@ public class MainPage {
         $$(".d9XbeXYFr").get(6).click();
         $$(".d9XbeXYFr").get(7).click();
         $$(".d9XbeXYFr").get(8).click();
+        return this;
+    }
+
+    public MainPage clickButtonOpenCategories() {
+        buttonOpenCategories.click();
+        return this;
+    }
+
+    public MainPage clickButtonCloseCategories() {
+        buttonCloseCategories.click();
+        return this;
+    }
+
+    public MainPage clickButtonCloseCookieInfo() {
+        buttonCloseCokieInfo.click();
         return this;
     }
 }

@@ -10,7 +10,7 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.browserSize = "1920×1080";
+        Configuration.browserSize = "1920x1080";
         Configuration.baseUrl = "https://kdvonline.ru";
         SelenideLogger.addListener("allure", new AllureSelenide());
     }
