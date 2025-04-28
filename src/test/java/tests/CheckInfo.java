@@ -26,7 +26,7 @@ public class CheckInfo {
 
         });
 
-        step("", () -> {
+        step(".", () -> {
 
         });
 
