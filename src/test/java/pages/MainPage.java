@@ -1,14 +1,13 @@
-package page;
+package pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Assertions;
+import pages.components.InputSearch;
 
 import java.time.Duration;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static com.codeborne.selenide.Condition.disabled;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.*;
@@ -34,6 +33,7 @@ public class MainPage {
                             buttonCloseCokieInfo = $(".al2KFqfcU");
 
 
+    public InputSearch inputSearch = new InputSearch();
 
 
     public MainPage openPage() {
@@ -143,6 +143,11 @@ public class MainPage {
 
     public MainPage clickButtonCloseCookieInfo() {
         buttonCloseCokieInfo.click();
+        return this;
+    }
+
+    public MainPage setNameProductSearchInput(String nameProduct) {
+        inputSearch.setValueSearch(nameProduct);
         return this;
     }
 }
