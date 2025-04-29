@@ -32,7 +32,8 @@ public class MainPage {
                             leftButtonRecommendation = $(".a9XbeXYFr.lvcyafA0C"),
                             buttonOpenCategories = $(".bJAnns2bu"),
                             buttonCloseCategories = $(".cJAnns2bu"),
-                            buttonCloseCokieInfo = $(".al2KFqfcU");
+                            buttonCloseCokieInfo = $(".al2KFqfcU"),
+                            infoBlockWithAllLinks = $(".cfTEZkzJt");
 
 
     public InputSearch inputSearch = new InputSearch();
@@ -153,4 +154,8 @@ public class MainPage {
         return this;
     }
 
+    public MainPage scrollInfoBlock() {
+        infoBlockWithAllLinks.scrollTo();
+        return this;
+    }
 }

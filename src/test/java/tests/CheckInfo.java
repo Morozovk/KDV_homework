@@ -23,6 +23,7 @@ public class CheckInfo extends TestBase {
     void checkLinkApp() {
         step("Открытие страницы", () -> {
             mainPage.openPage();
+            mainPage.scrollInfoBlock();
         });
 
         step("Проверка Link на сторы и соц. сети", () -> {
