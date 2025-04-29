@@ -17,6 +17,7 @@ public class CheckWorkComponentsMainPage extends TestBase {
     @Tag("Guest")
     @Tag("Smoke")
     void checkWorkSliderBannerMainPage() {
+
         step("Открытие страницы", () -> {
             mainPage.openPage();
         });
@@ -69,6 +70,31 @@ public class CheckWorkComponentsMainPage extends TestBase {
             mainPage.clickButtonCloseCategories();
         });
 
+    }
+
+    @Test
+    @DisplayName("Проверка работы блока преимуществ КДВ")
+    @Tag("Guest")
+    @Tag("Smoke")
+    void checkWorkAdvantagesSelectionMainPage() {
+
+        step("Открытие страницы", () -> {
+            mainPage.openPage();
+            mainPage.clickButtonCloseCookieInfo();
+            mainPage.scrollAdvantagesBlock();
+        });
+
+        step("Проверка блока минимальная цена", () -> {
+            mainPage.clickMinPriceButton();
+        });
+
+        step("Проверка блока бесплатна доставка", () -> {
+            mainPage.clickFreeDeliveryButton();
+        });
+
+        step("Проверка блока удобной оплаты", () -> {
+            mainPage.clickConvenientPaymentButton();
+        });
     }
 }
 

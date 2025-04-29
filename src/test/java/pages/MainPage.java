@@ -1,6 +1,7 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import com.sun.tools.javac.Main;
 import org.junit.jupiter.api.Assertions;
 import pages.components.InputSearch;
 
@@ -33,7 +34,14 @@ public class MainPage {
                             buttonOpenCategories = $(".bJAnns2bu"),
                             buttonCloseCategories = $(".cJAnns2bu"),
                             buttonCloseCokieInfo = $(".al2KFqfcU"),
-                            infoBlockWithAllLinks = $(".cfTEZkzJt");
+                            infoBlockWithAllLinks = $(".cfTEZkzJt"),
+                            minPriceButton = $(".bDCB7AS04"),
+                            freeDeliveryButton = $(".bDCB7AS04"),
+                            convenientPaymentButton = $(".bDCB7AS04"),
+                            advantagesBlock = $(".ayJvzP9HM"),
+                            descriptionMinPrice = $(".goPLN1VGL"),
+                            descriptionFreeDelivery = $(".goPLN1VGL"),
+                            descriptionConvenientPayment = $("");
 
 
     public InputSearch inputSearch = new InputSearch();
@@ -156,6 +164,41 @@ public class MainPage {
 
     public MainPage scrollInfoBlock() {
         infoBlockWithAllLinks.scrollTo();
+        return this;
+    }
+
+    public MainPage clickMinPriceButton() {
+        minPriceButton.click();
+        return this;
+    }
+
+    public  MainPage clickFreeDeliveryButton() {
+        freeDeliveryButton.click();
+        return this;
+    }
+
+    public MainPage clickConvenientPaymentButton() {
+        convenientPaymentButton.click();
+        return this;
+    }
+
+    public MainPage scrollAdvantagesBlock() {
+        leftButtonBanner.scrollTo();
+        return this;
+    }
+
+    public MainPage checkTextMinPrice() {
+        $$(".goPLN1VGL").get(0).shouldHave((""))
+        return this;
+    }
+
+    public MainPage checkFreeDelivery() {
+
+        return this;
+    }
+
+    public MainPage checkConvenientPayment() {
+
         return this;
     }
 }
