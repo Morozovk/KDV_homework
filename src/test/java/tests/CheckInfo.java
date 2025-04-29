@@ -17,7 +17,6 @@ public class CheckInfo extends TestBase {
 
     @Test
     @DisplayName("Проверка наполненности блока информации")
-    @Tag("New")
     @Tag("Guest")
     @Tag("Smoke")
     void checkLinkApp() {
@@ -37,7 +36,5 @@ public class CheckInfo extends TestBase {
         step("Проверка блока Контакты", () -> {
             infoBlock.checkContacts();
         });
-
-
     }
 }
