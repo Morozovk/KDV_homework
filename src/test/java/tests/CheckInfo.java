@@ -6,10 +6,11 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 import pages.components.InfoBlock;
+import settings.TestBase;
 
 import static io.qameta.allure.Allure.step;
 
-public class CheckInfo {
+public class CheckInfo extends TestBase {
 
     MainPage mainPage = new MainPage();
     InfoBlock infoBlock = new InfoBlock();
