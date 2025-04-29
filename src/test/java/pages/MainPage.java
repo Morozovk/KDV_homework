@@ -168,17 +168,17 @@ public class MainPage {
     }
 
     public MainPage clickMinPriceButton() {
-        minPriceButton.click();
+        $$(".bDCB7AS04").get(0).click();
         return this;
     }
 
     public  MainPage clickFreeDeliveryButton() {
-        freeDeliveryButton.click();
+        $$(".bDCB7AS04").get(1).click();
         return this;
     }
 
     public MainPage clickConvenientPaymentButton() {
-        convenientPaymentButton.click();
+        $$(".bDCB7AS04").get(2).click();
         return this;
     }
 
@@ -188,18 +188,20 @@ public class MainPage {
     }
 
     public MainPage checkTextMinPrice() {
-        $$(".goPLN1VGL").get(0).shouldHave(text("Холдинг KDV – это крупнейшее в России производство.."));
-        $$(".goPLN1VGL [href='/about']").get(0).shouldBe(visible);
+        $$(".goPLN1VGL").get(0).shouldHave(text("Холдинг KDV – это крупнейшее в России производство"));
+        $(".goPLN1VGL [href='/about']").shouldBe(visible).shouldHave(text("Подробнее"));
         return this;
     }
 
-//    public MainPage checkFreeDelivery() {
-//
-//        return this;
-//    }
-//
-//    public MainPage checkConvenientPayment() {
-//
-//        return this;
-//    }
+    public MainPage checkTextFreeDelivery() {
+        $$(".goPLN1VGL").get(1).shouldHave(text("Ваши покупки мы доставим бесплатно в удобное для вас"));
+        $(".goPLN1VGL [href='/delivery']").shouldBe(visible).shouldHave(text("Подробнее"));
+        return this;
+    }
+
+    public MainPage checkTextConvenientPayment() {
+        $$(".goPLN1VGL").get(2).shouldHave(text("Вы можете оплатить заказ онлайн или картой при получении"));
+        $(".goPLN1VGL [href='/payment-orders']").shouldBe(visible).shouldHave(text("Подробнее"));
+        return this;
+    }
 }

@@ -91,10 +91,12 @@ public class CheckWorkComponentsMainPage extends TestBase {
 
         step("Проверка блока бесплатна доставка", () -> {
             mainPage.clickFreeDeliveryButton();
+            mainPage.checkTextFreeDelivery();
         });
 
         step("Проверка блока удобной оплаты", () -> {
             mainPage.clickConvenientPaymentButton();
+            mainPage.checkTextConvenientPayment();
         });
     }
 }
