@@ -5,16 +5,18 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
+import pages.components.InfoBlock;
 
 import static io.qameta.allure.Allure.step;
 
 public class CheckInfo {
 
     MainPage mainPage = new MainPage();
+    InfoBlock infoBlock = new InfoBlock();
 
-    @Disabled
     @Test
     @DisplayName("Проверка наполненности блока информации")
+    @Tag("New")
     @Tag("Guest")
     @Tag("Smoke")
     void checkLinkApp() {
@@ -22,12 +24,16 @@ public class CheckInfo {
             mainPage.openPage();
         });
 
-        step("", () -> {
-
+        step("Проверка Link на сторы и соц. сети", () -> {
+            infoBlock.checkLink();
         });
 
-        step(".", () -> {
+        step("Проверка блока Информации и др", () -> {
+            infoBlock.checkInfo();
+        });
 
+        step("Проверка блока Контакты", () -> {
+            infoBlock.checkContacts();
         });
 
 

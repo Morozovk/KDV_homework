@@ -6,6 +6,8 @@ import pages.components.InputSearch;
 
 import java.time.Duration;
 
+import static com.codeborne.selenide.CollectionCondition.texts;
+import static com.codeborne.selenide.Condition.text;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static com.codeborne.selenide.Condition.visible;
@@ -150,4 +152,5 @@ public class MainPage {
         inputSearch.setValueSearch(nameProduct);
         return this;
     }
+
 }
