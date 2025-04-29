@@ -86,6 +86,7 @@ public class CheckWorkComponentsMainPage extends TestBase {
 
         step("Проверка блока минимальная цена", () -> {
             mainPage.clickMinPriceButton();
+            mainPage.checkTextMinPrice();
         });
 
         step("Проверка блока бесплатна доставка", () -> {

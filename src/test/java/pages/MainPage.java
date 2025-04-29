@@ -188,17 +188,18 @@ public class MainPage {
     }
 
     public MainPage checkTextMinPrice() {
-        $$(".goPLN1VGL").get(0).shouldHave((""))
+        $$(".goPLN1VGL").get(0).shouldHave(text("Холдинг KDV – это крупнейшее в России производство.."));
+        $$(".goPLN1VGL [href='/about']").get(0).shouldBe(visible);
         return this;
     }
 
-    public MainPage checkFreeDelivery() {
-
-        return this;
-    }
-
-    public MainPage checkConvenientPayment() {
-
-        return this;
-    }
+//    public MainPage checkFreeDelivery() {
+//
+//        return this;
+//    }
+//
+//    public MainPage checkConvenientPayment() {
+//
+//        return this;
+//    }
 }
