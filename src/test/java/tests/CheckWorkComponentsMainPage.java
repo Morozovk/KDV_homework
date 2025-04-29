@@ -80,7 +80,6 @@ public class CheckWorkComponentsMainPage extends TestBase {
 
         step("Открытие страницы", () -> {
             mainPage.openPage();
-            mainPage.clickButtonCloseCookieInfo();
             mainPage.scrollAdvantagesBlock();
         });
 
