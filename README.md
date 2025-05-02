@@ -35,3 +35,63 @@
 5. Проверка наполненности блока информации
 6. Поиск продукта
 7. Поиск несуществующего продукта
+
+---
+
+### Сборка в Jenkins
+
+-
+-
+-
+
+#### Параметры сборки Jenkins:
+
+Task - Выбор списка тест кейсов
+Browser - Выбор браузера (По умолчанию Chrome)
+BrowserVersion - Выбор версии браузера (По умолчанию 128.0)
+BrowserSize - Выбор размера окна браузера (По умолчанию 1920x1080)
+RemoteUrl - Где проходят автотесты
+
+### Команда для запуска из терминала:
+
+> Gradle clean Guest_test \
+ Gradle clean Smoke_test
+
+### Удаленный запуск через Jenkins:
+
+> clean \
+${Task} \
+-Dbrowser=${browser} \
+-DremoteUrl="https://user1:1234@${remoteUrl}/wd/hub" \
+-DbrowserVersion=${browserVersion} \
+-DbrowserSize=${browserSize}
+
+---
+
+### Allure отчет
+
+
+
+#### Основная страница отчета
+
+
+
+#### Тест кейсы
+
+
+
+### Уведомление в Telegram
+
+
+
+### Выполнение автотестов на Selenoid
+
+
+
+
+
+
+
+
+
+
