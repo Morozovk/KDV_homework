@@ -1,7 +1,9 @@
 # Проект по автоматизации на сайт компании "KDV Group"
+
 > Компания <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/images/KDV-logo.png" width="75" height="40"> - российский производитель снеков, кондитерских изделий, чая, кофе, соков и другой вкусной продукции, которая любима в России и далеко за ее пределами.
 ---
 ## Содержание:
+
 * <a href="#tools">Технологии и инструменты</a>
 
 * <a href="#cases">Автоматизированные тест кейсы</a>
@@ -19,6 +21,7 @@
 
 <a id="tools"></a>
 ### Технологии и инструменты:
+
 <p align="center">
     <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/images/idea-logo.svg" width="70" height="70">
     <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/images/java-logo.svg" width="70" height="70">
