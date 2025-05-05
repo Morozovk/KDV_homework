@@ -38,18 +38,18 @@
 
 ---
 
-### Сборка в Jenkins
+### Сборка в [Jenkins](https://jenkins.autotests.cloud/view/034/job/034-Morozovk_98-KDV_homework/)
 
--
--
--
+<p align="center">  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Jenkins-result.png" width="950"/></a>  
+</p>
 
 #### Параметры сборки Jenkins:
 
-Task - Выбор списка тест кейсов
-Browser - Выбор браузера (По умолчанию Chrome)
-BrowserVersion - Выбор версии браузера (По умолчанию 128.0)
-BrowserSize - Выбор размера окна браузера (По умолчанию 1920x1080)
+Task - Выбор списка тест кейсов \
+Browser - Выбор браузера (По умолчанию Chrome) \
+BrowserVersion - Выбор версии браузера (По умолчанию 128.0) \
+BrowserSize - Выбор размера окна браузера (По умолчанию 1920x1080) \
 RemoteUrl - Где проходят автотесты
 
 ### Команда для запуска из терминала:
@@ -70,7 +70,9 @@ ${Task} \
 
 ### Allure отчет
 
-
+<p align="center">  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-result.png" width="950"/></a>  
+</p>
 
 #### Основная страница отчета
 
@@ -78,14 +80,25 @@ ${Task} \
 
 #### Тест кейсы
 
-
+-
+-
+-
+-
+-
+-
+-
 
 ### Уведомление в Telegram
 
-
+<p align="center">  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Telegram-Bot.png" width="600"/></a>  
+</p>
 
 ### Выполнение автотестов на Selenoid
 
+<p align="center">  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Selenoid-demo.gif" width="950"/></a>  
+</p>
 
 
 
