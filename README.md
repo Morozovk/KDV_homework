@@ -26,7 +26,7 @@
     <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/idea-logo.svg" width="70" height="70">
     <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/java-logo.svg" width="70" height="70">
     <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/github-logo.svg" width="70" height="70">
-    <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/junit5-logo.svg" width="40" height="70">
+    <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/junit5-logo.svg" width="70" height="70">
     <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/gradle-logo.svg" width="70" height="70">
 <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/selenide-logo.svg" width="70" height="70">
 <img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-report-logo.svg" width="70" height="70">
