@@ -98,6 +98,8 @@ ${Task} \
 <a id="telegram"></a>
 ### Уведомление в Telegram
 
+- Реализован бот, который после каждого прохождения автотестов присылает уведомление с информацией по успешно пройденным или упавшим автотестам
+
 <p align="center">  
 <img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Telegram-Bot.png" width="600"/ alt="Telegram-bot"></a>  
 </p>
