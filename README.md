@@ -51,11 +51,9 @@
 <a id="jenkins"></a>
 ### Сборка в [Jenkins](https://jenkins.autotests.cloud/view/034/job/034-Morozovk_98-KDV_homework/)
 
-<p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Jenkins-result.png" width="950"/ alt="Jenkins-result"></a>  
-</p>
-
+- Реалиована джоба для удаленного запуска с выбором параметров
 <a id="params"></a>
+
 #### Параметры сборки Jenkins:
 
 Task - Выбор списка тест кейсов \
@@ -63,6 +61,11 @@ Browser - Выбор браузера (По умолчанию Chrome) \
 BrowserVersion - Выбор версии браузера (По умолчанию 128.0) \
 BrowserSize - Выбор размера окна браузера (По умолчанию 1920x1080) \
 RemoteUrl - Где проходят автотесты
+
+
+<p align="center">  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Jenkins-result.png" width="950"/ alt="Jenkins-result"></a>  
+</p>
 
 <a id="console"></a>
 ### Команда для запуска из терминала:
@@ -83,6 +86,8 @@ ${Task} \
 
 <a id="allure"></a>
 ### Allure отчет
+
+- Реализован Allure отчет, со следующими вложениями: последний скриншот, логи браузера, видео запись прохождения автотестов
 
 <p align="center">  
 <img src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-result.png" width="950"/ alt="Allure-result"></a>  
@@ -105,12 +110,3 @@ ${Task} \
 <p align="center">  
 <img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Selenoid-demo.gif" width="950"/ alt="Video Selenoid"></a>  
 </p>
-
-
-
-
-
-
-
-
-
