@@ -23,15 +23,15 @@
 ### Технологии и инструменты:
 
 <p align="center">
-    <a href="https://www.jetbrains.com/idea/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/idea-logo.svg" width="70" height="70">
-    <a href="https://www.java.com/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/java-logo.svg" width="70" height="70">
-    <a href="https://github.com/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/github-logo.svg" width="70" height="70">
-    <a href="https://junit.org/junit5/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/junit5-logo.svg" width="70" height="70">
-    <a href="https://gradle.org/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/gradle-logo.svg" width="70" height="70">
-    <a href="https://selenide.org/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/selenide-logo.svg" width="70" height="70">
-    <a href="https://docs.qameta.io/allure/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-report-logo.svg" width="70" height="70">
-     <a href="https://www.jenkins.io/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/jenkins-logo.svg" width="70" height="70">
-    <a href="https://aerokube.com/selenoid/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/Selenoid-logo.svg" width="70" height="70">
+    <a href="https://www.jetbrains.com/idea/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/idea-logo.svg" width="70" height="70"></a>
+    <a href="https://www.java.com/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/java-logo.svg" width="70" height="70"></a>
+    <a href="https://github.com/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/github-logo.svg" width="70" height="70"></a>
+    <a href="https://junit.org/junit5/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/junit5-logo.svg" width="70" height="70"></a>
+    <a href="https://gradle.org/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/gradle-logo.svg" width="70" height="70"></a>
+    <a href="https://selenide.org/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/selenide-logo.svg" width="70" height="70"></a>
+    <a href="https://docs.qameta.io/allure/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-report-logo.svg" width="70" height="70"></a>
+     <a href="https://www.jenkins.io/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/jenkins-logo.svg" width="70" height="70"></a>
+    <a href="https://aerokube.com/selenoid/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/Selenoid-logo.svg" width="70" height="70"></a>
 </p>
 
 ---
