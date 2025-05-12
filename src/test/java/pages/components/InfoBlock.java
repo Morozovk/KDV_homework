@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class InfoBlock {
 
-    @Step ("Проверка Ссылок на VK, IOS, Android")
+    @Step ("Проверка Ссылок на сторы IOS, Android и соц сеть VK")
     public void checkLink() {
         $(".efTEZkzJt a[href='https://vk.com/kdvonline']").shouldHave(visible);
         $(".efTEZkzJt a[href='https://kdvonline.page.link/V9Hh']").shouldHave(visible);
@@ -22,7 +22,7 @@ public class InfoBlock {
                 "&callType=AGDLINK&installType=0000']").shouldHave(visible);
     }
 
-    @Step ("Проверка наличия разделов в 'Инфо'")
+    @Step ("Проверка наличия разделов в блоке 'Инфоормация'")
     public void checkInfo() {
         $$(".aO0VmIpQ0 a").shouldHave(texts("О магазине",
                 "Бесплатная доставка",
@@ -53,7 +53,7 @@ public class InfoBlock {
 
     }
 
-    @Step ("Проверка блока контактов")
+    @Step ("Проверка контактов в блоке 'Инфоормация'")
     public void checkContacts() {
         $(".a2J3P0lgC").shouldHave(text(
                 "Свяжитесь с нами\n" +
