@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -19,22 +20,11 @@ public class CheckInfo extends TestBase {
     @DisplayName("Проверка наполненности блока информации")
     @Tag("Guest")
     @Tag("Smoke")
-    void checkLinkApp() {
-        step("Открытие страницы", () -> {
-            mainPage.openPage();
-            mainPage.scrollInfoBlock();
-        });
-
-        step("Проверка Link на сторы и соц. сети", () -> {
-            infoBlock.checkLink();
-        });
-
-        step("Проверка блока Информации и др", () -> {
-            infoBlock.checkInfo();
-        });
-
-        step("Проверка блока Контакты", () -> {
-            infoBlock.checkContacts();
-        });
+    void checkLinkAppTest() {
+        mainPage.openPage();
+        mainPage.scrollInfoBlock();
+        infoBlock.checkLink();
+        infoBlock.checkInfo();
+        infoBlock.checkContacts();
     }
 }

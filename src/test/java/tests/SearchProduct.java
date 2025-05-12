@@ -22,18 +22,9 @@ public class SearchProduct extends TestBase {
     @Tag("Guest")
     @Tag("Smoke")
     void searchProductTest() {
-
-        step("Открытие страницы", () -> {
-            mainPage.openPage();
-        });
-
-        step("Ввод в поле поиск название товара", () -> {
-            mainPage.setNameProductSearchInput(nameProduct);
-        });
-
-        step("Проверка результатов поиска", () -> {
+            mainPage.openPage()
+                    .setNameProductSearchInput(nameProduct);
             resultSearchPage.checkResultSearch(nameProduct);
-        });
     }
 
     @Test
@@ -41,17 +32,8 @@ public class SearchProduct extends TestBase {
     @Tag("Guest")
     @Tag("Smoke")
     void searchNullProductTest() {
-
-        step("Открытие страницы", () -> {
-            mainPage.openPage();
-        });
-
-        step("Ввод в поле поиск название товара, которого несуществует", () -> {
-            mainPage.setNameProductSearchInput(nameNullProduct);
-        });
-
-        step("Результат поиска несуществующего товара", () -> {
+            mainPage.openPage()
+                    .setNameProductSearchInput(nameNullProduct);
             resultSearchPage.checkNullResultSearch();
-        });
     }
 }

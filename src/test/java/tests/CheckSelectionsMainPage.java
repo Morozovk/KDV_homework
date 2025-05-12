@@ -16,42 +16,16 @@ public class CheckSelectionsMainPage extends TestBase {
     @DisplayName("Проверка наполненности главной страницы")
     @Tag("Guest")
     @Tag("Smoke")
-    void checkSelectionsMainPage() {
-        step ("Открытие страницы", () -> {
-            mainPage.openPage();
-        });
-
-        step("Проверка изображения на баннере (Реклама банка)", () -> {
-            mainPage.checkImageBankBanner();
-        });
-
-        step("Проверка изображения на баннере (Рекалама печенья)", () -> {
-            mainPage.checkImageCookieBanner();
-        });
-
-//        step("Проверка изображения на баннере (Рекалама завтрака)", () -> {
-//            mainPage.checkImageBreakfastBanner();
-//        }); Почему то не работает
-
-        step("Проверка наличия раздела Рекомендации", () -> {
-            mainPage.checkRecommendationSection();
-        });
-
-        step("Проверка наличия раздела Категории", () -> {
-            mainPage.checkCategoriesSection();
-        });
-
-        step("Проверка наличия раздела Новинки", () -> {
-            mainPage.checkNewProductsSection();
-        });
-
-        step("Проверка наличия раздела Хиты", () -> {
-            mainPage.checkSalesHitsSection();
-        });
-
-        step("Проверка наличия раздела Ифно", () -> {
-            mainPage.checkInfoSection();
-        });
+    void checkSelectionsMainPageTest() {
+            mainPage.openPage()
+                    .checkImageBankBanner()
+                    .checkImageCookieBanner()
+                    .checkImageBreakfastBanner()
+                    .checkRecommendationSection()
+                    .checkCategoriesSection()
+                    .checkNewProductsSection()
+                    .checkSalesHitsSection()
+                    .checkInfoSection();
     }
 }
 
