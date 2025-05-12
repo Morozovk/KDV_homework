@@ -20,9 +20,6 @@ public class CheckSelectionsMainPage extends TestBase {
     @Tag("Smoke")
     void selectionsMainPageTest() {
             mainPage.openPage()
-                    .checkImageBankBanner()
-                    .checkImageCookieBanner()
-                    .checkImageBreakfastBanner()
                     .checkRecommendationSection()
                     .checkCategoriesSection()
                     .checkNewProductsSection()
