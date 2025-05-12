@@ -17,7 +17,7 @@ public class CheckInfo extends TestBase {
     InfoBlock infoBlock = new InfoBlock();
 
     @Test
-    @DisplayName("Проверка Links на сторы и ВК")
+    @DisplayName("Проверка Links на сторы IOS и Android и соц сеть ВК")
     @Tag("Guest")
     @Tag("Smoke")
     void linkAppTest() {

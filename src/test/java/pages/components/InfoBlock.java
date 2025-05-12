@@ -22,7 +22,7 @@ public class InfoBlock {
                 "&callType=AGDLINK&installType=0000']").shouldHave(visible);
     }
 
-    @Step ("Проверка наличия разделов в блоке 'Инфоормация'")
+    @Step ("Проверка наличия разделов в блоке 'Информация'")
     public void checkInfo() {
         $$(".aO0VmIpQ0 a").shouldHave(texts("О магазине",
                 "Бесплатная доставка",
@@ -53,7 +53,7 @@ public class InfoBlock {
 
     }
 
-    @Step ("Проверка контактов в блоке 'Инфоормация'")
+    @Step ("Проверка контактов в блоке 'Информация'")
     public void checkContacts() {
         $(".a2J3P0lgC").shouldHave(text(
                 "Свяжитесь с нами\n" +
