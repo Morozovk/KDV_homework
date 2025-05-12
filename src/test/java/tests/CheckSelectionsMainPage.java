@@ -13,7 +13,6 @@ public class CheckSelectionsMainPage extends TestBase {
 
     MainPage mainPage = new MainPage();
 
-    @Disabled
     @Test
     @DisplayName("Проверка наполненности главной страницы")
     @Tag("Guest")
@@ -25,7 +24,6 @@ public class CheckSelectionsMainPage extends TestBase {
                     .checkNewProductsSection()
                     .checkSalesHitsSection()
                     .checkInfoSection();
-
     }
 }
 
