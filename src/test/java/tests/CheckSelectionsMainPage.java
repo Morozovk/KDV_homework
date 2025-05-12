@@ -25,6 +25,7 @@ public class CheckSelectionsMainPage extends TestBase {
                     .checkNewProductsSection()
                     .checkSalesHitsSection()
                     .checkInfoSection();
+
     }
 }
 
