@@ -101,7 +101,7 @@ ${Task} \
 - Реализован бот, который после каждого прохождения автотестов присылает уведомление с информацией по успешно пройденным или упавшим автотестам
 
 <p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Telegram-Bot.png" width="600"/ alt="Telegram-bot"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Report-Telegram.png" width="600"/ alt="Telegram-bot"></a>  
 </p>
 
 ---
@@ -110,5 +110,5 @@ ${Task} \
 ### Выполнение автотестов на Selenoid
 
 <p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Selenoid-demo.gif" width="950"/ alt="Video Selenoid"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Report-VideoSelenoid.gif" width="950"/ alt="Video Selenoid"></a>  
 </p>
