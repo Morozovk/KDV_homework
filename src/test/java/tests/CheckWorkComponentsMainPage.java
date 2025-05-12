@@ -16,7 +16,7 @@ public class CheckWorkComponentsMainPage extends TestBase {
     @DisplayName("Проверка работы блока рекомендации")
     @Tag("Guest")
     @Tag("Smoke")
-    void checkWorkSliderBannerMainPageTest() {
+    void workSliderBannerMainPageTest() {
             mainPage.openPage()
                     .checkRecommendationSection()
                     .leftButtonRecommendationNotClickable()
@@ -30,7 +30,7 @@ public class CheckWorkComponentsMainPage extends TestBase {
     @DisplayName("Проверка работы блока категории")
     @Tag("Guest")
     @Tag("Smoke")
-    void checkWorkCategoriesSelectionMainPageTest() {
+    void workCategoriesSelectionMainPageTest() {
             mainPage.openPage()
                     .clickButtonCloseCookieInfo()
                     .checkCategoriesSection()
@@ -42,7 +42,7 @@ public class CheckWorkComponentsMainPage extends TestBase {
     @DisplayName("Проверка работы блока преимуществ КДВ")
     @Tag("Guest")
     @Tag("Smoke")
-    void checkWorkAdvantagesSelectionMainPageTest() {
+    void workAdvantagesSelectionMainPageTest() {
             mainPage.openPage()
                     .scrollAdvantagesBlock()
                     .clickMinPriceButton()

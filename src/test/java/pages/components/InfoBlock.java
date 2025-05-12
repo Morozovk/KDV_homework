@@ -1,5 +1,7 @@
 package pages.components;
 
+import io.qameta.allure.Step;
+
 import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
@@ -7,6 +9,8 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
 public class InfoBlock {
+
+    @Step ("Проверка Ссылок на VK, IOS, Android")
     public void checkLink() {
         $(".efTEZkzJt a[href='https://vk.com/kdvonline']").shouldHave(visible);
         $(".efTEZkzJt a[href='https://kdvonline.page.link/V9Hh']").shouldHave(visible);
@@ -18,6 +22,7 @@ public class InfoBlock {
                 "&callType=AGDLINK&installType=0000']").shouldHave(visible);
     }
 
+    @Step ("Проверка наличия разделов в 'Инфо'")
     public void checkInfo() {
         $$(".aO0VmIpQ0 a").shouldHave(texts("О магазине",
                 "Бесплатная доставка",
@@ -48,6 +53,7 @@ public class InfoBlock {
 
     }
 
+    @Step ("Проверка блока контактов")
     public void checkContacts() {
         $(".a2J3P0lgC").shouldHave(text(
                 "Свяжитесь с нами\n" +

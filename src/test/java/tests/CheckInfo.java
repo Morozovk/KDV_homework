@@ -17,14 +17,32 @@ public class CheckInfo extends TestBase {
     InfoBlock infoBlock = new InfoBlock();
 
     @Test
-    @DisplayName("Проверка наполненности блока информации")
+    @DisplayName("Проверка Links на сторы и ВК")
     @Tag("Guest")
     @Tag("Smoke")
-    void checkLinkAppTest() {
-        mainPage.openPage();
-        mainPage.scrollInfoBlock();
+    void linkAppTest() {
+        mainPage.openPage()
+                .scrollInfoBlock();
         infoBlock.checkLink();
-        infoBlock.checkInfo();
+    }
+
+    @Test
+    @DisplayName("Проверка наличия разделов в блоке 'Информация'")
+    @Tag("Guest")
+    @Tag("Smoke")
+    void infoCompanyTest() {
+    mainPage.openPage()
+            .scrollInfoBlock();
+    infoBlock.checkInfo();
+    }
+
+    @Test
+    @DisplayName("Проверка наличия контактной информации в блоке 'Информация'")
+    @Tag("Guest")
+    @Tag("Smoke")
+    void contactsCompanyTest() {
+        mainPage.openPage()
+                .scrollInfoBlock();
         infoBlock.checkContacts();
     }
 }

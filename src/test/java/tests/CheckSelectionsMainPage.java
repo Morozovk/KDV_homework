@@ -16,7 +16,7 @@ public class CheckSelectionsMainPage extends TestBase {
     @DisplayName("Проверка наполненности главной страницы")
     @Tag("Guest")
     @Tag("Smoke")
-    void checkSelectionsMainPageTest() {
+    void selectionsMainPageTest() {
             mainPage.openPage()
                     .checkImageBankBanner()
                     .checkImageCookieBanner()
