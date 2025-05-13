@@ -49,7 +49,7 @@
 ---
 
 <a id="jenkins"></a>
-### Сборка в [Jenkins](https://jenkins.autotests.cloud/view/034/job/034-Morozovk_98-KDV_homework/)
+### Сборка в [Jenkins](https://github.com/Morozovk/KDV_homework/blob/master/media/Jenkins-result.png)
 
 - Реалиована джоба для удаленного запуска с выбором параметров
 <a id="params"></a>
@@ -87,7 +87,13 @@ ${Task} \
 <a id="allure"></a>
 ### Allure отчет
 
-- Реализован Allure отчет, со следующими вложениями: последний скриншот, логи браузера, видео запись прохождения автотестов
+- Реализован Allure отчет
+
+<p align="center">  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-result.png" width="950"/ alt="Allure-result"></a>  
+</p>
+
+- В Allure отчете есть следующие вложения: последний скриншот, логи браузера, видео запись прохождения автотестов
 
 <p align="center">  
 <img src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-result.png" width="950"/ alt="Allure-result"></a>  
@@ -101,7 +107,7 @@ ${Task} \
 - Реализован бот, который после каждого прохождения автотестов присылает уведомление с информацией по успешно пройденным или упавшим автотестам
 
 <p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Telegram-Bot.png" width="600"/ alt="Telegram-bot"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Report-Telegram.png" width="600"/ alt="Telegram-bot"></a>  
 </p>
 
 ---
@@ -110,5 +116,5 @@ ${Task} \
 ### Выполнение автотестов на Selenoid
 
 <p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Selenoid-demo.gif" width="950"/ alt="Video Selenoid"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Report-VideoSelenoid.gif" width="950"/ alt="Video Selenoid"></a>  
 </p>
