@@ -49,7 +49,7 @@
 ---
 
 <a id="jenkins"></a>
-### Сборка в [Jenkins](https://github.com/Morozovk/KDV_homework/blob/master/media/Jenkins-result.png)
+### Сборка в [Jenkins](https://jenkins.autotests.cloud/view/034/job/034-Morozovk_98-KDV_homework/)
 
 - Реалиована джоба для удаленного запуска с выбором параметров
 <a id="params"></a>
@@ -64,7 +64,7 @@ RemoteUrl - Где проходят автотесты
 
 
 <p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Jenkins-result.png" width="950"/ alt="Jenkins-result"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Jenkins-job.png" width="950"/ alt="Jenkins-result"></a>  
 </p>
 
 <a id="console"></a>
@@ -90,13 +90,13 @@ ${Task} \
 - Реализован Allure отчет
 
 <p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-result.png" width="950"/ alt="Allure-result"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Allure-result.png" width="950"/ alt="Allure-result"></a>  
 </p>
 
 - В Allure отчете есть следующие вложения: последний скриншот, логи браузера, видео запись прохождения автотестов
 
 <p align="center">  
-<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/allure-result.png" width="950"/ alt="Allure-result"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Allure-testCase.png" width="950"/ alt="Allure-result"></a>  
 </p>
 
 ---
