@@ -105,20 +105,23 @@ ${Task} \
 
 ---
 
-<a id="allure"></a>
+<a id="TestOps"></a>
 ### Allure TestOps
 
-- Интеграция с Allure TestOps
-
+- Реализованы ручные и автоматизированные тест кейсы
 
 <p align="center">  
-<img src="" width="950"/ alt="Allure-TestOps"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/manual_cases.png" width="950"/ alt="Allure-TestOps"></a>  
+</p>
+
+<p align="center">  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/automation_cases.png" width="950"/ alt="Allure-TestOps"></a>  
 </p>
 
 - Реализван запуск автотестов
 
 <p align="center">  
-<img src="" width="950"/ alt="Allure-TestOps"></a>  
+<img src="https://github.com/Morozovk/KDV_homework/blob/master/media/job_testops.png" width="950"/ alt="Allure-TestOps"></a>  
 </p>
 
 ---
