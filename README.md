@@ -14,6 +14,8 @@
 
 * <a href="#allure">Allure отчет</a>
 
+* <a href="#TestOps">Allure TestOps</a>
+
 * <a href="#telegram">Уведомление в Telegram</a>
 
 * <a href="#selenoid">Выполнение автотестов на Selenoid</a>
@@ -99,6 +101,24 @@ ${Task} \
 
 <p align="center">  
 <img src="https://github.com/Morozovk/KDV_homework/blob/master/media/Allure-testCase.png" width="950"/ alt="Allure-result"></a>  
+</p>
+
+---
+
+<a id="allure"></a>
+### Allure TestOps
+
+- Интеграция с Allure TestOps
+
+
+<p align="center">  
+<img src="" width="950"/ alt="Allure-TestOps"></a>  
+</p>
+
+- Реализван запуск автотестов
+
+<p align="center">  
+<img src="" width="950"/ alt="Allure-TestOps"></a>  
 </p>
 
 ---
