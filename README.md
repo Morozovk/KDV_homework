@@ -108,8 +108,8 @@ ${Task} \
 <a id="TestOps"></a>
 ### Allure TestOps
 
-- Интеграция с Allure TestOps
--Раелизованы ручные и автоматизированные кейсы
+- Интеграция с Allure TestOps \
+-Реализованы ручные и автоматизированные кейсы
 
 <p align="center">  
 <img src="https://github.com/Morozovk/KDV_homework/blob/master/media/manual_cases.png" width="950"/ alt="Allure-TestOps"></a>  
