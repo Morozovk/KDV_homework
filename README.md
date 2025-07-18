@@ -1,4 +1,4 @@
-# Проект по автоматизации на сайт компании "KDV Group"
+# Проект по автоматизации на сайт компании [KDV](https://kdvonline.ru)
 
 > Компания <a href="https://kdv-group.com/ru/" target="_blank"><img align="center" src="https://github.com/Morozovk/KDV_homework/blob/master/media/KDV-logo.png" width="75" height="40"></a> - российский производитель снеков, кондитерских изделий, чая, кофе, соков и другой вкусной продукции, которая любима в России и далеко за ее пределами.
 ---
