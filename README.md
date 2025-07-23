@@ -91,7 +91,7 @@ ${Task} \
 ---
 
 <a id="allure"></a>
-### Allure отчет
+### [Allure отчет](https://jenkins.autotests.cloud/view/034/job/034-Morozovk_98-KDV_homework/50/allure/)
 
 - Реализован Allure отчет
 
@@ -108,7 +108,7 @@ ${Task} \
 ---
 
 <a id="TestOps"></a>
-### Allure TestOps
+### [Allure TestOps](https://allure.autotests.cloud/project/4838/test-cases?treeId=0)
 
 - Реализованы ручные и автоматизированные тест кейсы
 
