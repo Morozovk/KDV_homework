@@ -2,12 +2,15 @@ package tests;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 import pages.ResultSearchPage;
 
 import static io.qameta.allure.Allure.step;
 
+@Tags({@Tag("Guest"),@Tag("Smoke")})
+@DisplayName("Проверка поиска")
 public class SearchProduct extends TestBase {
 
     MainPage mainPage = new MainPage();
@@ -18,8 +21,6 @@ public class SearchProduct extends TestBase {
 
     @Test
     @DisplayName("Поиск продукта")
-    @Tag("Guest")
-    @Tag("Smoke")
     void searchProductTest() {
             mainPage.openPage()
                     .setNameProductSearchInput(nameProduct);
@@ -28,8 +29,6 @@ public class SearchProduct extends TestBase {
 
     @Test
     @DisplayName("Поиск несуществующего продукта")
-    @Tag("Guest")
-    @Tag("Smoke")
     void searchNullProductTest() {
             mainPage.openPage()
                     .setNameProductSearchInput(nameNullProduct);

@@ -76,24 +76,6 @@ public class MainPage {
         return this;
     }
 
-    @Step ("Проверка отображения банера 'Долинск банк'")
-    public MainPage checkImageBankBanner() {
-        bannerImageBank.shouldBe(visible, Duration.ofSeconds(7));
-        return this;
-    }
-
-    @Step ("Проверка отображения банера 'Печенье'")
-    public MainPage checkImageCookieBanner() {
-        bannerImageCookie.shouldBe(visible, Duration.ofSeconds(7));
-        return this;
-    }
-
-    @Step ("Проверка отображения банера 'Сухие завтраки'")
-    public MainPage checkImageBreakfastBanner() {
-        bannerImageBreakfast.shouldBe(visible, Duration.ofSeconds(7));
-        return this;
-    }
-
     @Step ("Тап по правой стрелке раздела 'Рекомендации'")
     public MainPage rightClickButtonRecommendation() {
         rightButtonRecommendation.click();
