@@ -6,8 +6,6 @@ import org.junit.jupiter.api.Tags;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 
-import static io.qameta.allure.Allure.step;
-
 @Tags({@Tag("Guest"),@Tag("Smoke")})
 @DisplayName("Проверка работы блоков на главной странице")
 public class CheckWorkComponentsMainPage extends TestBase {

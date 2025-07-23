@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Test;
 import pages.MainPage;
 import pages.ResultSearchPage;
 
-import static io.qameta.allure.Allure.step;
-
 @Tags({@Tag("Guest"),@Tag("Smoke")})
 @DisplayName("Проверка поиска")
 public class SearchProduct extends TestBase {
