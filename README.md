@@ -84,7 +84,7 @@ RemoteUrl - Где проходят автотесты
 > clean \
 ${Task} \
 -Dbrowser=${browser} \
--DremoteUrl="https://user1:1234@${remoteUrl}/wd/hub" \
+-DremoteUrl="https://login:password@${remoteUrl}/wd/hub" \
 -DbrowserVersion=${browserVersion} \
 -DbrowserSize=${browserSize}
 
