@@ -23,7 +23,6 @@ public class TestBase {
         Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.pageLoadStrategy = "eager";
         Configuration.remote = System.getProperty("remoteUrl");
-        SelenideLogger.addListener("allure", new AllureSelenide());
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
@@ -35,10 +34,10 @@ public class TestBase {
         Configuration.browserCapabilities = capabilities;
     }
 
-//    @BeforeEach
-//    void allureLogger() {
-//
-//    }
+    @BeforeEach
+    void allureLogger() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+    }
 
     @AfterEach
     void addAttachments() {
