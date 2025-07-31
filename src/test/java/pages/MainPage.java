@@ -1,17 +1,11 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-import com.sun.tools.javac.Main;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import pages.components.InputSearch;
 
-import java.time.Duration;
-
-import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Condition.text;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selenide.*;
@@ -25,9 +19,6 @@ public class MainPage {
                             salesHitsSection = $(".hits"),
                             infoSection = $(".hkMNjtTqC"),
                             leftButtonBanner = $(".a9XbeXYFr.elof16ICz"),
-                            bannerImageBank = $("[src='https://api.magonline.ru/thumbnail/1200x450/50/991/50991.png']"),
-                            bannerImageCookie = $("[src='https://api.magonline.ru/thumbnail/1200x450/50/897/50897.png']"),
-                            bannerImageBreakfast = $("[src='https://api.magonline.ru/thumbnail/1200x450/50/530/50530.png']"),
                             rightButtonRecommendation = $(".b9XbeXYFr.mvcyafA0C"),
                             leftButtonRecommendation = $(".a9XbeXYFr.lvcyafA0C"),
                             buttonOpenCategories = $(".bJAnns2bu"),

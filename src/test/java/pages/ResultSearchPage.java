@@ -1,7 +1,6 @@
 package pages;
 
 import io.qameta.allure.Step;
-import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
